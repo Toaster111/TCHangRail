@@ -16,7 +16,7 @@ public class RailTypeHanging extends RailTypeHorizontal {
 
 	@Override
 	public boolean isRail(int typeId, int data) {
-		return typeId == Material.IRON_FENCE.getId();
+		return typeId == Material.OBSIDIAN.getId();
 	}
 
 	@Override
